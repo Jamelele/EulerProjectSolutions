@@ -30,3 +30,6 @@ Find the sum of all the multiples of 3 or 5 below 1000.
     print(end - start)
 
 I used two for loops using the each multiple of 3 and 5 under 1000, I then took away the common multiples by finding the multiples of 15 and subtracting those.
+
+## Answer
+    233168
