@@ -32,6 +32,5 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 	print(findHighestPalindrome())
     
-	I developed a function which determines if a number is palindromic. 
 ## Answer
     906609
