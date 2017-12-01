@@ -1,6 +1,5 @@
 f = [1, 2]
 
-next = 0
 sum = 0
 
 while f[-1] < 4000000: # f[-1] = last value in the list
