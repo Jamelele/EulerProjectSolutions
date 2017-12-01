@@ -9,20 +9,20 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 ## Solution
 
-    f= [1, 2]
+    f = [1, 2]
 
     next = 0
     sum = 0
 
-    while next < 4000000:
-      next = f[-1] + f[-2] # Sum of last two numbers in series
-      f.append(next)
+    while f[-1] < 4000000: # f[-1] = last value in the list
+      i = f[-1] + f[-2]
+      f.append(i) # Sum of last two numbers in series
 
-    for i in f:
       if (i % 2 == 0):
         sum += i
 
     print(sum)
+
 
 I used a list to store the values of the fibonacci sequence. In order to calculate the terms, I used a loop which repeats itself until the final value is greater than 4 million, it takes the last two terms of the list and adds them together to make the next term.
 
